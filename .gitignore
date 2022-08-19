@@ -1,1 +1,6 @@
-node_modelu
+# Dependency directories
+node_modules/
+
+.env
+# package-lock.json
+package-lock.json
