@@ -9,7 +9,6 @@ import City from '../components/ciudad/City.jsx';
 function App() {
   const [cities, setCities] = useState([]);
   function onSearch(city) {
-    const APIKEY = '37c970517d73d1ae5d149f5bf6616b45';
     fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=metric`)
       .then(r => r.json())
       .then((response) => {
