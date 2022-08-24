@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Route, Routes, useParams} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import Cards from '../components/cards/Cards.jsx';
 import Nav from '../components/nav/Nav.jsx';
 import './App.css';

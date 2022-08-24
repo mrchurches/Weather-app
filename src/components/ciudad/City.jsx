@@ -1,12 +1,8 @@
 import React from 'react';
-import axios from "axios";
 import { Link, useParams } from 'react-router-dom';
-const APIKEY = '37c970517d73d1ae5d149f5bf6616b45';
 
 export default function City({filter}){
     let {cityId} = useParams();
-    // axios.get(`https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${APIKEY}`)
-    // .then(res=> infoCity = res.data);
     let city= filter(cityId);
 
         return(

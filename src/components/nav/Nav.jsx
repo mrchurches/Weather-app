@@ -2,7 +2,6 @@ import React from 'react';
 import SearchBar from '../searchbar/SearchBar.jsx'
 import './Nav.css';
 import {Link} from 'react-router-dom';
-import logo from "../../img/sol.png"
 function Nav({onSearch}) {
   return (
     <div className='nav'>

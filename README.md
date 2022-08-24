@@ -10,4 +10,4 @@ La funcion de esta app fue afianzar los contenidos aprendidos acerca del flujo d
 
 ## Link hacia la página deployada:
 
-
+https://weather-app-one-taupe.vercel.app/
