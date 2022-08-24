@@ -17,7 +17,6 @@ function onSearch(city) {
       .then(res=> res.data)
       .then((response) => {
         let finded=false;
-        console.log(response)
         const cityNew = {
             min: Math.round(response.main.temp_min),
             max: Math.round(response.main.temp_max),
@@ -44,7 +43,6 @@ function onSearch(city) {
             if(finded){alert("City already added")}
             else{
               setCities([...cities, cityNew]);
-              console.log(cities)
             }
           }
         })
