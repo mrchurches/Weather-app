@@ -1,9 +1,38 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    background: grey;
+    background: rgb(41, 41, 41);
+    padding: 0.5vh;
+    transition: all 0.5s;
 }
 
-.first{
-    margin: 5px;
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title h4{
+    transition: all 0.5s;
+}
+
+.title h4:hover{
+    transform: scale(0.95);
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.about:hover{
+
+    transform: scale(0.95);
+}
+
+.nav h4{
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    padding-top: 0.5rem;
 }
