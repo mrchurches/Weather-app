@@ -1,5 +1,6 @@
 .card{
-    width: 20%;
+    display: flex;
+    width: 30vh;
     padding: 0.3%;
     margin: 1%;
     background-color: transparent;
@@ -38,4 +39,8 @@
 
 .temp{
     margin: 2%;
+}
+
+@media (max-height: 850px){
+    
 }
